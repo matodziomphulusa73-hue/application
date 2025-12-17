@@ -1,0 +1,62 @@
+input:focus, textarea:focus{ border-color: midnightblue; }
+
+input:invalid, 
+select:invalid,
+textarea:invalid{border-color: red;}
+
+input:valid,
+select:valid,
+textarea:valid {border-color: green;}
+
+button:hover{ background-color: green;}
+button{ color: grey;}
+.radio-group input[type="radio"]:checked{ border-color: blue; background-color: midnightblue;
+box-shadow: 0 5px 10px grey;}
+
+.radio-group input[type="radio"]:checked + label
+{ 
+color: green; }
+input:first-of-type{ color: purple;}
+body { background-color:grey;
+  color: whitesmoke;
+  }
+
+.container{ background-color: #ffffff1a;
+width: 80%;
+max-width: 600px; 
+border-radius: 10px;
+margin: 20px auto;
+padding: 10px 20px;
+box-shadow: 0 5px 15px black;  
+}
+.title center{ text-align: center;}
+form
+{
+border: 1px solid white;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 20px;
+}
+fieldset { background-color: green 
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 20px; }
+input{ border: 1px solid gray;
+  border-radius: 5px;
+  margin: 5px 0;
+  padding: 20px; }
+
+  fieldset legend {
+  font-size: 1.3rem;
+  font-weight: 600; }
+
+  label {
+  font-size: 1.2rem; }
+
+  textarea { color: white
+  background-color: #ffffff1a;
+  width: 95%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
