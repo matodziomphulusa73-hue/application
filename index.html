@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="styles.css">
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Job Application Form</title>
+</head>
+<body>
+<div class="container">
+<h1 class="title center">Job Application Form</h1>
+<form>
+<label for="name">Full Name: </label>
+<input type="text" id="name" name="full-name" placeholder="Enter your name" required>
+</form>
+<form>
+<label for="email">Email: </label>
+<input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+</form>
+<form>
+<label for="contact">Contact Number: </label>
+<input type="text" id="contact" name="contact-number" placeholder="Enter your cellnumber" required></form>
+<form>
+<label for="position">Select Your Job Position:</label>
+<select id="position" name="select" placeholder="select one option" required >
+<option value="junior- web-eveloper">Junior Web Developer</option>
+<option value="senior-software-engineer">Senior SoftWare Engineer</option>
+<option value="full-stack-web-developer">Full-Stack Web Developer</option>
+</select></form>
+<fieldset class="radio-group">
+<legend>Availability</legend>
+<input type="radio"id="full-time" name="availability">
+<label for="full-time">Full-Time</label>
+<input type="radio"id="part-time" name="availability">
+<label for="part-time">Part-Time</label>
+</fieldset>
+<label for="message">Why did you apply for this Job?</label>
+<textarea id="message" name="message" placeholder="Enter your answer here" required></textarea>
+<button type="submit">Submit Form</button>
+</form>
+</div>
+</body>
+</html>
